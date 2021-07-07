@@ -6,20 +6,27 @@ html {
 
 body {
     text-align: center;
-    background: linear-gradient(white, lightgray);
+    background: linear-gradient(white, lightgrey);
     background-repeat: no-repeat;
     align-content: center;
+    border-style: solid;
+    border-color: black;
 }
 
-h1 {
+h3 {
     text-shadow: 2px 2px darkgray;
     font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-bottom: 3px;
+
 }
 
 #bio {
     padding: 20px;
     font-size: 18px;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 
 img {
@@ -27,12 +34,15 @@ img {
     height: 100px;
     border-radius: 100%;
     align-content: center;
-    padding: 15px;
+    padding: 2px;
+    border-style: solid;
+    border-color: black;
 }
 
 #menu ul {
     list-style: none;
     word-spacing: 10px;
+    margin: 5px;
 }
 
 #menu li {
@@ -40,11 +50,40 @@ img {
     top: 10px;
     right: 30px;
     cursor: pointer;
+    transition: 0.5s;
     color: black;
     font-family: 'Montserrat', sans-serif;
-    
-}   
+    border-style: solid;
+    border-color: black;
+    padding: 3px;
 
-#menu li:hover{
-    background-color: lightgrey;
+}
+
+#menu li:hover {
+    background-color: lightgray;
+}
+
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 5px;
+}
+
+span {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.parallax-inner {
+
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.line {
+    width: 112px;
+    height: 47px;
+    border-bottom: 1px solid black;
+    
 }
