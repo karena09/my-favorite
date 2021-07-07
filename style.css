@@ -1,0 +1,50 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+body {
+    text-align: center;
+    background: linear-gradient(white, lightgray);
+    background-repeat: no-repeat;
+    align-content: center;
+}
+
+h1 {
+    text-shadow: 2px 2px darkgray;
+    font-size: 20px;
+}
+
+#bio {
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    align-content: center;
+    padding: 15px;
+}
+
+#menu ul {
+    list-style: none;
+    word-spacing: 10px;
+}
+
+#menu li {
+    display: inline-block;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    
+}   
+
+#menu li:hover{
+    background-color: lightgrey;
+}
