@@ -17,7 +17,7 @@ h3 {
     text-shadow: 2px 2px darkgray;
     font-size: 20px;
     font-family: 'Roboto Condensed', sans-serif;
-    
+
 }
 
 #bio {
@@ -136,62 +136,62 @@ span {
 #pic1 {
     height: 200px;
     width: 200px;
-    padding:20px;
+    padding: 20px;
 }
 
 #pic2 {
     height: 200px;
     width: 200px;
-    padding:20px;
+    padding: 20px;
 }
 
 #pic3 {
     height: 200px;
     width: 200px;
-    padding:20px;
+    padding: 20px;
 }
 
 #pic4 {
     height: 200px;
     width: 200px;
-    padding:20px;
+    padding: 20px;
 }
 
 #pic5 {
     height: 200px;
     width: 200px;
-    padding:20px;
+    padding: 20px;
 }
 
 #pic6 {
     height: 200px;
     width: 200px;
-    padding:20px; 
+    padding: 20px;
 }
 
 #pic7 {
     height: 200px;
     width: 200px;
-    padding:20px;
+    padding: 20px;
 }
 
 #pic8 {
     height: 200px;
     width: 200px;
-    padding:20px;
+    padding: 20px;
 }
 
-.imgsection{
+.imgsection {
     margin: 35px;
     border-style: solid;
-    border-color: black
+    border-color: black;
 }
 
-.row{
+.row {
     margin: 10px;
 }
 
 p {
-  font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
 }
