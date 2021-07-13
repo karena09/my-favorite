@@ -17,7 +17,7 @@ h3 {
     text-shadow: 2px 2px darkgray;
     font-size: 20px;
     font-family: 'Roboto Condensed', sans-serif;
-
+    
 }
 
 #bio {
@@ -28,7 +28,7 @@ h3 {
     font-weight: bold;
 }
 
-img {
+#pfp {
     width: 100px;
     height: 100px;
     border-radius: 100%;
@@ -81,4 +81,117 @@ span {
     margin: 8px auto;
     align-content: center;
 
+}
+
+.button {
+    background-color: gray;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-top: 30px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid darkgrey;
+}
+
+.button1:hover {
+    background-color: darkgrey;
+    color: white;
+}
+
+.button2 {
+    background-color: white;
+    color: black;
+    border: 2px solid darkgrey;
+}
+
+.button2:hover {
+    background-color: darkgrey;
+    color: white;
+}
+
+.button3 {
+    background-color: white;
+    color: black;
+    border: 2px solid darkgrey;
+}
+
+.button3:hover {
+    background-color: darkgrey;
+    color: white;
+}
+
+#pic1 {
+    height: 200px;
+    width: 200px;
+    padding:20px;
+}
+
+#pic2 {
+    height: 200px;
+    width: 200px;
+    padding:20px;
+}
+
+#pic3 {
+    height: 200px;
+    width: 200px;
+    padding:20px;
+}
+
+#pic4 {
+    height: 200px;
+    width: 200px;
+    padding:20px;
+}
+
+#pic5 {
+    height: 200px;
+    width: 200px;
+    padding:20px;
+}
+
+#pic6 {
+    height: 200px;
+    width: 200px;
+    padding:20px; 
+}
+
+#pic7 {
+    height: 200px;
+    width: 200px;
+    padding:20px;
+}
+
+#pic8 {
+    height: 200px;
+    width: 200px;
+    padding:20px;
+}
+
+.imgsection{
+    margin: 35px;
+    border-style: solid;
+    border-color: black
+}
+
+.row{
+    margin: 10px;
+}
+
+p {
+  font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
 }
