@@ -20,7 +20,7 @@ h3 {
 
 }
 
-#bio {
+#about {
     padding: 20px;
     font-size: 18px;
     text-align: center;
@@ -137,48 +137,88 @@ span {
     height: 200px;
     width: 200px;
     padding: 20px;
+    transition: transform .9s;
+}
+
+#pic1:hover {
+    transform: scale(1.2);
 }
 
 #pic2 {
     height: 200px;
     width: 200px;
     padding: 20px;
+    transition: transform .9s;
+}
+
+#pic2:hover {
+    transform: scale(1.2);
 }
 
 #pic3 {
     height: 200px;
     width: 200px;
     padding: 20px;
+    transition: transform .9s;
+}
+
+#pic3:hover {
+    transform: scale(1.2);
 }
 
 #pic4 {
     height: 200px;
     width: 200px;
     padding: 20px;
+    transition: transform .9s;
+}
+
+#pic4:hover {
+    transform: scale(1.2);
 }
 
 #pic5 {
     height: 200px;
     width: 200px;
     padding: 20px;
+    transition: transform .9s;
+}
+
+#pic5:hover {
+    transform: scale(1.2);
 }
 
 #pic6 {
     height: 200px;
     width: 200px;
     padding: 20px;
+    transition: transform .9s;
+}
+
+#pic6:hover {
+    transform: scale(1.2);
 }
 
 #pic7 {
     height: 200px;
     width: 200px;
     padding: 20px;
+    transition: transform .9s;
+}
+
+#pic7:hover {
+    transform: scale(1.2);
 }
 
 #pic8 {
     height: 200px;
     width: 200px;
     padding: 20px;
+    transition: transform .9s;
+}
+
+#pic8:hover {
+    transform: scale(1.2);
 }
 
 .imgsection {
@@ -192,6 +232,60 @@ span {
 }
 
 p {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    margin-bottom: 30px;
 }
+
+.button4 {
+    background-color: white;
+    color: black;
+    margin: 15px;
+    border: 2px solid darkgrey;
+}
+
+.button4:hover {
+    background-color: darkgrey;
+    color: white;
+    transform: scale(1.2);
+}
+
+.button5 {
+    background-color: white;
+    color: black;
+    margin: 15px;
+    border: 2px solid darkgrey;
+}
+
+.button5:hover {
+    background-color: darkgrey;
+    color: white;
+    transform: scale(1.2);
+}
+
+.button6 {
+    background-color: white;
+    color: black;
+    margin: 15px;
+    border: 2px solid darkgrey;
+}
+
+.button6:hover {
+    background-color: darkgrey;
+    color: white;
+    transform: scale(1.2);
+}
+
+.button7 {
+    background-color: white;
+    color: black;
+    margin: 15px;
+    border: 2px solid darkgrey;
+}
+
+.button7:hover {
+    background-color: darkgrey;
+    color: white;
+    transform: scale(1.2);
+}
+
