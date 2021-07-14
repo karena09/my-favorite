@@ -9,22 +9,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+ 
     <title>My Favorite</title>
     <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
+    <script src="main.js"> </script>
 </head>
 
 <body>
 
     <div id="menu">
         <ul>
-            <li class="link"> About </li>
-            <li class="link"> Links </li>
-            <li class="link"> Work </li>
-            <li class="link"> Inspiration </li>
-            <li class="link"> Contact </li>
+            <li class="link"><a href="#about"> About </a></li>
+            <li class="link"><a href="#links"> Links </a></li>
+            <li class="link"><a href="#work"> Work </a></li>
+            <li class="link"><a href="#inspo"> Inspiration </a></li>
+            <li class="link"><a href="#contact"> Contact </a></li>
+            
         </ul>
     </div>
     <h1> Karena </h1>
@@ -63,32 +64,32 @@
         <h3> My Work </h3>
         <br>
 
-            <div class=imgsection>
-                <div class="row">
-                    <img id="pic1" class="image-section" src="angel%20wing%20necklace.jpg">
-                    <p> Angel wing necklace with pink bead </p>
-                    <img id="pic2" class="image-section" src="celestial%20jewerly%20set.jpg">
-                    <p> Celestial themed necklace and earrings </p>
-                    <img id="pic3" class="image-section" src="clover%20necklace.jpg">
-                    <p> Clover necklace </p>
-                    <img id="pic4" class="image-section" src="hello%20kitty%20earrings.jpg">
-                    <p> Hello Kitty earrings </p>
+        <div class=imgsection>
+            <div class="row">
+                <img id="pic1" class="image-section" src="angel%20wing%20necklace.jpg">
+                <p> Angel wing necklace with pink bead </p>
+                <img id="pic2" class="image-section" src="celestial%20jewerly%20set.jpg">
+                <p> Celestial themed necklace and earrings </p>
+                <img id="pic3" class="image-section" src="clover%20necklace.jpg">
+                <p> Clover necklace </p>
+                <img id="pic4" class="image-section" src="hello%20kitty%20earrings.jpg">
+                <p> Hello Kitty earrings </p>
 
-                    <br><br>
-                </div>
-                <div class="row">
-                    <img id="pic5" class="image-section" src="mini%20hat%20necklace.jpg">
-                    <p> Mini hat charm necklace </p>
-                    <img id="pic6" class="image-section" src="mushroom%20scene%20necklace.jpg">
-                    <p> Mushroom scene necklace </p>
-                    <img id="pic7" class="image-section" src="silver%20steampunk%20earrings.jpg">
-                    <p> Silver steampunk earrings </p>
-                    <img id="pic8" class="image-section" src="steampunk%20pendant.jpg">
-                    <p> Steampunk resin pendant </p>
-
-                    <br> <br>
-                </div>
+                <br><br>
             </div>
+            <div class="row">
+                <img id="pic5" class="image-section" src="mini%20hat%20necklace.jpg">
+                <p> Mini hat charm necklace </p>
+                <img id="pic6" class="image-section" src="mushroom%20scene%20necklace.jpg">
+                <p> Mushroom scene necklace </p>
+                <img id="pic7" class="image-section" src="silver%20steampunk%20earrings.jpg">
+                <p> Silver steampunk earrings </p>
+                <img id="pic8" class="image-section" src="steampunk%20pendant.jpg">
+                <p> Steampunk resin pendant </p>
+
+                <br> <br>
+            </div>
+        </div>
     </section>
 
     <div class="line"> </div>
@@ -104,13 +105,30 @@
 
             <button class="button button6" onclick="window.location.href='https://www.etsy.com/shop/DarkSecretsDesignCo?ref=simple-shop-header-name&listing_id=953449829'"> Shop 3 </button>
         </div>
+
+        <div class="line"> </div>
+
+        <h3> Facts about jewerly </h3>
+
+        <button class="button button7" onclick="window.location.href='https://melroso.com/blogs/stylingblog/top-15-fun-interesting-facts-about-jewelry-and-its-history'"> Link </button>
+
+        <div class="line"> </div>
+
     </section>
-    
-    <div class="line"> </div> 
-    
-    <h3> Facts about jewerly </h3>
-    
-    <button class="button button7" onclick="window.location.href='https://melroso.com/blogs/stylingblog/top-15-fun-interesting-facts-about-jewelry-and-its-history'"> Link </button>
-    
-</body>
-</html>
+
+    <section id="contact">
+        <h3> Contact </h3>
+        <div class="map">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d85805.02961899893!2d-122.27584099585735!3d47.773552116757685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54900e5a62e5fd6b%3A0x72449f1539850b0!2sBothell%2C%20WA!5e0!3m2!1sen!2sus!4v1626236330885!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"> </iframe>
+        </div>
+
+        <div class="line"> </div>
+        <a href="mailto:karena.mcgleno@gmail.com?Subject=Hello" id="myname">
+
+            <i class="fa fa envelope">&nbsp; <span id="myname"> karena.mcgleno@gmail.com </span> </i>
+
+        </a>
+    </section>
+
+</body></html>

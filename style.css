@@ -289,3 +289,35 @@ p {
     transform: scale(1.2);
 }
 
+
+.map {
+    border-style: solid;
+    border-width: thin;
+    border padding: 15px;
+    margin: 80px; 
+}
+
+a:link {
+    margin: 20px;
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkgrey;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: lightgray;
+    background-color: transparent;
+    text-decoration: underline;
+}
